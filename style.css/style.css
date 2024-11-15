@@ -1,0 +1,47 @@
+body {
+    background-color: beige;
+}
+
+#container {
+    background-color: maroon;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+.first {
+    background-color: rgb(255, 0, 89);
+    padding: 10px;
+    margin: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.second {
+    background-color: rebeccapurple;
+    padding: 20px;
+    margin: 5px;
+}
+.third {
+    background-color: blue;
+    padding: 20px;
+    margin: 5px;
+}
+.fourth {
+    background-color: aqua;
+    padding: 20px;
+    margin: 5px;
+    grid-column-start: 4;
+    grid-column-end: 3;
+}
+
+
+.money {
+    background-color: burlywood;
+    width: fit-content;
+    padding: 15px;
+    margin: 15px auto;
+    animation: money linear infinite 0.7s;
+}
+
